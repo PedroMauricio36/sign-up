@@ -1,0 +1,41 @@
+* {
+    font-size: 1.5rem;
+}
+
+body {
+    background-image: url(./assets/gamer.png);
+    background-size: 100%;
+    background-position: 400px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.container {
+    display: flex;
+    height: 95vh;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: end;
+}
+
+.titulo {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.formulario {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.botao {
+    border-radius: 20px;
+    background: none;
+    font-size: 1.2rem;
+}
+
+.teste-botao {
+    margin-top: 20px;
+    text-align: center;
+}
